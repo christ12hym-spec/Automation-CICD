@@ -55,6 +55,7 @@ public class StandAloneTest2 extends BaseTest {
 		ProductCatalog PC = LP.loginApplication("christ12hym@gmail.com", "Rose12**");	
 		Orderpage OP = PC.goToOrdersPage();		
 		Assert.assertTrue(OP.verifyOrderDisplay(ProductName));
+System.out.println("OK");
 	}
 	
 	
